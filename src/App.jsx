@@ -22,12 +22,15 @@ const theme = extendTheme({
 	styles: {
 		global: {
 			body: {
-				fontFamily: brand.fontFamily,
 				bg: brand.colors.darkblue1,
 				color: brand.colors.softblue,
 				lineHeight: brand.lineHeight,
 			},
 		},
+	},
+	fonts: {
+		body: brand.fontFamily,
+		heading: brand.fontFamily
 	},
 	colors: {
 		brand: brand.colors,
