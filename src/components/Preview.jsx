@@ -53,7 +53,6 @@ export default function Preview() {
 					src={equilibriumImg}
 					alt="Equilibrium"
 					w="100%"
-					maxW="100%"
 					borderRadius="inherit"
 				/>
 			</Flex>

@@ -32,6 +32,15 @@ const theme = extendTheme({
 	colors: {
 		brand: brand.colors,
 	},
+	components: {
+		Link: {
+			baseStyle: {
+				_hover: {
+					textDecoration: 'none',
+				},
+			},
+		},
+	},
 });
 
 function App() {
